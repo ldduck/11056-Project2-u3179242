@@ -1,12 +1,10 @@
 
 
 
-/* styles.css */
-
 body {
   font-size: 24px;
-  font-family: monospace;
-
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(217, 223, 229);
 }
 
 h1 {
@@ -20,21 +18,25 @@ p {
 }
 
 
-
+/* Header */
 header h1 {
     font-size: 48px;
+    color: green;
     font-family: monospace;
     text-align: center;
     line-height: 2.5em;
 }
+
 
 .textcontainer {
   justify-content: center;
   align-items: center;
   position: relative;
   padding-top: 20%;
+  padding-bottom: 5%;
 }
 
+/*Window Gallery*/
 .panecontainer {
   display: flex;
   justify-content: center;
@@ -42,7 +44,6 @@ header h1 {
   min-height: 40vh;
 }
 
-/*Window Gallery*/
 .window {
   display: flex;
   flex-wrap: wrap;
