@@ -1,0 +1,41 @@
+
+
+
+/* styles.css */
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 80%;
+}
+
+/*Window Gallery*/
+.window {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  border: 10px solid #555;
+}
+
+.pane {
+  width: calc(50% - 10px);
+  margin: 5px;
+}
+
+.pane img {
+  width: 100%;
+}
+
+img {
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.5);
+}
