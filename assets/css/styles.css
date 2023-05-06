@@ -3,23 +3,43 @@
 
 /* styles.css */
 
-
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  font-size: 24px;
+  font-family: monospace;
+
 }
 
-.container {
-  width: 80%;
-  margin: 0 auto;
+h1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  text-align: center;
+}
+
+
+
+header h1 {
+    font-size: 48px;
+    font-family: monospace;
+    text-align: center;
+    line-height: 2.5em;
+}
+
+.textcontainer {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 20%;
 }
 
 .panecontainer {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 40vh;
 }
 
 /*Window Gallery*/
@@ -46,5 +66,28 @@ img {
 }
 
 img:hover {
-  transform: scale(3.0);
+  transform: scale(3.5);
+}
+
+/* Media Queries */
+/* Tablet */
+@media (min-width: 600px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 900px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  p {
+    font-size: 36px;
+  }
 }
