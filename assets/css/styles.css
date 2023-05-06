@@ -24,7 +24,13 @@ header h1 {
     color: green;
     font-family: monospace;
     text-align: center;
-    line-height: 2.5em;
+    line-height: 2.0em;
+}
+
+header p {
+    font-family: monospace;
+    font-size: 20px;
+    color: #555;
 }
 
 
