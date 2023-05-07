@@ -61,7 +61,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   width: 400px;
-  border: 10px solid #555;
+  border: 10px solid goldenrod;
 }
 .pane {
   width: calc(50% - 10px);
